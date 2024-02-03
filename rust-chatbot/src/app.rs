@@ -92,7 +92,7 @@ pub fn App() -> impl IntoView {
         <Stylesheet id="leptos" href="/pkg/rust_chatbot.css"/>
 
         // sets the document title
-        <Title text="Rusty Llama"/>
+        <Title text="Rust Chatbot"/>
         <ChatArea conversation/>
         <TypeArea send/>
     }
